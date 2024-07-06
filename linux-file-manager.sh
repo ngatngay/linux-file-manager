@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR=~/ngatngay-file-manager
-ADDR="0.0.0.0:9753"
+ADDR="0.0.0.0:8753"
 
 apt install -y wget php-cli php-common php-mbstring php-xml php-mysql php-curl php-zip
 
@@ -34,5 +34,5 @@ unzip -o file-manager.zip
 # chmod -R 755 $DIR
 
 echo ""
-echo "Install OK! Access [IP]:9753 to use!"
+echo "Install OK! Access [IP]:8753 to use!"
 
